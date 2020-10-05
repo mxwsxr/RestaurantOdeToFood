@@ -40,11 +40,12 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <vc:restaurant-count></vc:restaurant-count>
         @RenderSection("footer", required: false)
+        <vc:restaurant-count></vc:restaurant-count>
         <div class="container">
             &copy; 2020 - OdeToFood - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
+        <img src="/OdeToFood.png" />
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
